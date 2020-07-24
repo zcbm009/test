@@ -1,1 +1,171 @@
-<mxfile host="app.diagrams.net" modified="2020-06-08T07:04:16.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" version="13.1.14" etag="3lGaMevrootLz85XE3fe" type="github"><diagram id="BN7kaqMvyQ_q2BNuT8dN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-24T14:33:25.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="yVFnLVIEzTsZ2fDa3h3g" version="13.3.8" type="github">
+  <diagram id="BN7kaqMvyQ_q2BNuT8dN" name="Page-1">
+    <mxGraphModel dx="1221" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-1" target="5tXUFx5ya4Q-1K_TDCNB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1850" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-4" target="5tXUFx5ya4Q-1K_TDCNB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-4" value="初始化变量：头结点、当前操作结点、加和结果、进位变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-6" target="5tXUFx5ya4Q-1K_TDCNB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-6" value="是否结点l1或l2存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-7" value="是否存在进位结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-8" target="5tXUFx5ya4Q-1K_TDCNB-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="560" />
+              <mxPoint x="380" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-8" target="5tXUFx5ya4Q-1K_TDCNB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="680" />
+              <mxPoint x="380" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-8" value="l1.val+l2.va+进位结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="585" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-9" value="是否加和大于等于10" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-10" target="5tXUFx5ya4Q-1K_TDCNB-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="840" />
+              <mxPoint x="380" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-10" target="5tXUFx5ya4Q-1K_TDCNB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-10" value="保存进位结果，&lt;br&gt;保存结点应赋值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="880" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-11" target="5tXUFx5ya4Q-1K_TDCNB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="840" />
+              <mxPoint x="380" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-11" target="5tXUFx5ya4Q-1K_TDCNB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-11" value="进位结果置为null，&lt;br&gt;保存结点应赋值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="880" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-13" value="当前操作结点是否为null" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-16" target="5tXUFx5ya4Q-1K_TDCNB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-16" target="5tXUFx5ya4Q-1K_TDCNB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-16" value="利用应赋值创建结点，&lt;br&gt;保存当前结点到头结点&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-17" target="5tXUFx5ya4Q-1K_TDCNB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-17" target="5tXUFx5ya4Q-1K_TDCNB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-17" value="利用应赋值创建next结点，&lt;br&gt;保存next结点到当前操作结点引用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-18" target="5tXUFx5ya4Q-1K_TDCNB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="1370" />
+              <mxPoint x="770" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-18" target="5tXUFx5ya4Q-1K_TDCNB-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-18" value="链表l1 l2向next移动" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-19" target="5tXUFx5ya4Q-1K_TDCNB-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="560" />
+              <mxPoint x="380" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-19" target="5tXUFx5ya4Q-1K_TDCNB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="680" />
+              <mxPoint x="380" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-19" value="l1.val+l2.va" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-44" target="5tXUFx5ya4Q-1K_TDCNB-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1490" />
+              <mxPoint x="560" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-44" value="是否进位结果不为null" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-46" target="5tXUFx5ya4Q-1K_TDCNB-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-46" target="5tXUFx5ya4Q-1K_TDCNB-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-46" value="将进位结果的值作为一个新的结点保存到current.next" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5tXUFx5ya4Q-1K_TDCNB-52" target="5tXUFx5ya4Q-1K_TDCNB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5tXUFx5ya4Q-1K_TDCNB-52" value="返回头结点" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1730" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
